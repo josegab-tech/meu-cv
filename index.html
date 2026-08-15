@@ -1,87 +1,147 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>José Gabriel | Portfólio & Currículo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <header>
-        <h1>José Gabriel Reis da Cruz</h1>
-        <p><strong>Sistemas de Informação - IFSULDEMINAS</strong></p>
-        <p>Desenvolvimento Backend | DevOps & Cloud | Linux</p>
 
-        <p>
-            Divisa Nova, MG &nbsp;|&nbsp;
-            <a href="https://www.linkedin.com/in/jos%C3%A9-gabriel-reis-da-cruz-129022379" target="_blank">LinkedIn</a> &nbsp;|&nbsp;
-            <a href="https://github.com/josegab-tech" target="_blank">GitHub</a>
-        </p>
+    <!-- CABEÇALHO COM NAVEGAÇÃO -->
+    <header>
+        <div class="header-container">
+            <h1>José Gabriel Reis da Cruz</h1>
+            <p class="subtitle">Sistemas de Informação — IFSULDEMINAS | DevOps, Linux & Cloud</p>
+            
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#formacao">Formação</a></li>
+                    <li><a href="#experiencia">Experiência</a></li>
+                    <li><a href="#pesquisa">Pesquisa</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <hr>
-    <!-- SOBRE MIM -->
-    <section>
-        <h2>Sobre Mim</h2>
-        <p>
-            Estudante de Sistemas de Informação no IFSULDEMINAS, com forte engajamento acadêmico e prático. 
-            Atualmente atuo como bolsista de P&D e participante de projetos de iniciação científica e extensão. 
-            Tenho foco em desenvolvimento de software, arquitetura de sistemas, infraestrutura Linux e automação, 
-            buscando sempre resolver problemas complexos com código eficiente e boas práticas.
-        </p>
-    </section>
-
-    <hr>
-
-    <!-- FORMAÇÃO ACADÊMICA -->
-    <section>
-        <h2>Formação Acadêmica</h2>
-        <h3>Bacharelado em Sistemas de Informação</h3>
-        <p><strong>IFSULDEMINAS — Campus Machado</strong> | 2025 - 2028 (Previsão)</p>
-        <ul>
-            <li><strong>Média Acadêmica (IRA):</strong> 8,35</li>
-            <li>Destaque em disciplinas de Algoritmos, Estrutura de Dados e Engenharia de Software.</li>
-        </ul>
-    </section>
-
-    <hr>
-
-    <!-- EXPERIÊNCIA E P&D -->
-    <section>
-        <h2>Experiência & Projetos de P&D</h2>
-        <h3>Bolsista de Pesquisa e Desenvolvimento (P&D)</h3>
-        <p><strong>Embrapii / Sebrae / FADEMA</strong></p>
-        <ul>
-            <li>Desenvolvimento no projeto <strong>Smart Coffee Flow</strong>, aplicando soluções tecnológicas no contexto do agronegócio.</li>
-            <li>Uso prático de <strong>Python</strong>, ambientes <strong>Linux</strong> e conteinerização com <strong>Docker</strong>.</li>
-        </ul>
-    </section>
-
-    <hr>
-
-    <!-- INICIAÇÃO CIENTÍFICA E EXTENSÃO -->
-    <section>
-        <h2>Iniciação Científica & Atividades Acadêmicas</h2>
+    <!-- ESTRUTURA PRINCIPAL (GRID COM MAIN E ASIDE) -->
+    <div class="container">
         
-        <h3>Projetos de Iniciação Científica</h3>
-        <ul>
-            <li>
-                <strong>Análise Comparativa de Algoritmos de Pathfinding:</strong> 
-                Estudo e benchmark de desempenho (tempo de execução, memória e eficiência) de algoritmos de busca de caminho em diferentes linguagens de programação.
-            </li>
-            <li>
-                <strong>Análise de TCO e Ciclo de Vida de Infraestruturas de TI:</strong> 
-                Estudo técnico e financeiro sobre ativos de TI, avaliando custos e viabilidade entre ambientes locais (On-Premises) e Nuvem (Cloud).
-            </li>
-        </ul>
+        <!-- CONTEÚDO PRINCIPAL -->
+        <main>
+            <section id="sobre">
+                <h2>Sobre Mim</h2>
+                <p>
+                    Estudante de Sistemas de Informação no IFSULDEMINAS, com forte engajamento acadêmico e prático. 
+                    Atualmente atuo como bolsista de P&D e participante de projetos de iniciação científica e extensão. 
+                    Tenho foco em desenvolvimento de software, arquitetura de sistemas, infraestrutura Linux e automação, 
+                    buscando sempre resolver problemas complexos com código eficiente e boas práticas.
+                </p>
+            </section>
 
-        <h3>Extensão & Competições</h3>
-        <ul>
-            <li><strong>Projeto de Extensão (Python):</strong> Atuação como monitor/instrutor no ensino de programação em Python para a comunidade.</li>
-            <li><strong>Maratonas de Programação:</strong> Participante ativo em competições de lógica de programação e resolução de problemas.</li>
-        </ul>
-    </section>
+            <section id="formacao">
+                <h2>Formação Acadêmica</h2>
+                <article>
+                    <h3>Bacharelado em Sistemas de Informação</h3>
+                    <p class="institution"><strong>IFSULDEMINAS — Campus Machado</strong> | 2025 - 2028 (Previsão)</p>
+                    <ul>
+                        <li><strong>Média Acadêmica (IRA):</strong> 8,35</li>
+                        <li>Destaque em disciplinas de Algoritmos, Estrutura de Dados e Engenharia de Software.</li>
+                    </ul>
+                </article>
+            </section>
 
-    <hr>
+            <section id="experiencia">
+                <h2>Experiência & Projetos de P&D</h2>
+                <article>
+                    <h3>Bolsista de Pesquisa e Desenvolvimento (P&D)</h3>
+                    <p class="institution"><strong>Embrapii / Sebrae / FADEMA</strong></p>
+                    <ul>
+                        <li>Desenvolvimento no projeto <strong>Smart Coffee Flow</strong>, aplicando soluções tecnológicas no contexto do agronegócio.</li>
+                        <li>Uso prático de <strong>Python</strong>, ambientes <strong>Linux</strong> e conteinerização com <strong>Docker</strong>.</li>
+                    </ul>
+                </article>
+            </section>
+
+            <section id="pesquisa">
+                <h2>Iniciação Científica & Extensão</h2>
+                
+                <article>
+                    <h3>Projetos de Iniciação Científica</h3>
+                    <ul>
+                        <li>
+                            <strong>Análise Comparativa de Algoritmos de Pathfinding:</strong> 
+                            Estudo e benchmark de desempenho (tempo de execução, memória e eficiência) de algoritmos de busca de caminho em diferentes linguagens.
+                        </li>
+                        <li>
+                            <strong>Análise de TCO e Ciclo de Vida de Infraestruturas de TI:</strong> 
+                            Estudo técnico e financeiro sobre ativos de TI, avaliando custos e viabilidade entre ambientes locais (On-Premises) e Nuvem (Cloud).
+                        </li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h3>Extensão & Competições</h3>
+                    <ul>
+                        <li><strong>Projeto de Extensão (Python):</strong> Atuação como monitor/instrutor no ensino de programação em Python para a comunidade.</li>
+                        <li><strong>Maratonas de Programação:</strong> Participante ativo em competições de lógica de programação e resolução de problemas.</li>
+                    </ul>
+                </article>
+            </section>
+
+            <section id="habilidades">
+                <h2>Habilidades Técnicas</h2>
+                <ul>
+                    <li><strong>Linguagens & Frameworks:</strong> Python, Django, Java, C#, JavaScript</li>
+                    <li><strong>Infraestrutura & Versionamento:</strong> Linux, Git, GitHub, Docker</li>
+                    <li><strong>Fundamentos:</strong> Algoritmos, Estrutura de Dados, Redes, Análise de TCO / FinOps</li>
+                </ul>
+            </section>
+        </main>
+
+        <!-- BARRA LATERAL (ASIDE) -->
+        <aside>
+            <div class="aside-card">
+                <h3>Localização</h3>
+                <p>Divisa Nova, MG — Brasil</p>
+            </div>
+
+            <div class="aside-card">
+                <h3>Contato Direto</h3>
+                <button id="btn-email" class="btn-copy">Copiar E-mail</button>
+            </div>
+
+            <div class="aside-card">
+                <h3>Conecte-se</h3>
+                <ul class="aside-links">
+                    <li><a href="https://www.linkedin.com/in/jos%C3%A9-gabriel-reis-da-cruz-129022379" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/josegab-tech" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+
+            <div class="aside-card">
+                <h3>Idiomas</h3>
+                <ul>
+                    <li><strong>Português:</strong> Nativo</li>
+                    <li><strong>Inglês:</strong> Intermediário</li>
+                </ul>
+            </div>
+
+            <div class="aside-card status-card">
+                <h3>Status</h3>
+                <p>Bolsista P&D | Foco em DevOps, Cloud e Backend.</p>
+            </div>
+        </aside>
+
+    </div>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <p>© <span id="year"></span> — Desenvolvido por José Gabriel Reis da Cruz | Hospedado no GitHub Pages</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
