@@ -2,7 +2,7 @@
 
 Seja bem-vindo ao repositório do meu site pessoal e portfólio profissional. O projeto consiste em uma página web responsiva, acessível e otimizada, desenvolvida para apresentar minha trajetória acadêmica no **IFSULDEMINAS**, minhas experiências em **Pesquisa & Desenvolvimento (P&D)**, além de habilidades técnicas e contatos.
 
-**Acesse o site online:** [https://josegab-tech.github.io/meu-cv/](josegab-tech.github.io/meu-cv/)
+**Acesse o site online:** [josegab-tech.github.io/meu-cv/)
 
 ---
 
